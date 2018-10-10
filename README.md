@@ -74,7 +74,7 @@ Realiza a inclusão de um novo piloto.
 
 **Exceções:**
 
-- Caso o `identificador` já exista, retornar `br.com.codenation.desafio.exceptions.IdentificadorUtilizadoException`
+- Caso o `identificador` já exista, retornar `br.com.neogrid.desafio.exceptions.IdentificadorUtilizadoException`
 
 ### @Desafio("comprarCarro)"
 
@@ -90,9 +90,9 @@ Realiza a compra de um carro para determinado piloto.
 
 **Exceções:**
 
-- Caso o `identificador` já exista, retornar `br.com.codenation.desafio.exceptions.IdentificadorUtilizadoException`
-- Caso o piloto informado não exista, retornar `br.com.codenation.desafio.exceptions.PilotoNaoEncontradoException`
-- Caso o piloto não tenha saldo disponível, retornar `br.com.codenation.desafio.exceptions.SaldoInsuficienteException`
+- Caso o `identificador` já exista, retornar `br.com.neogrid.desafio.exceptions.IdentificadorUtilizadoException`
+- Caso o piloto informado não exista, retornar `br.com.neogrid.desafio.exceptions.PilotoNaoEncontradoException`
+- Caso o piloto não tenha saldo disponível, retornar `br.com.neogrid.desafio.exceptions.SaldoInsuficienteException`
 
 
 ### @Desafio("venderCarro")
@@ -103,7 +103,7 @@ Realiza a compra de um carro para determinado piloto.
  
  **Exceções:**
  
- - Caso o carro informado não exista, retornar `br.com.codenation.desafio.exceptions.CarroNaoEncontradoException`
+ - Caso o carro informado não exista, retornar `br.com.neogrid.desafio.exceptions.CarroNaoEncontradoException`
  
  
 ### @Desafio("buscarPilotos")
@@ -118,7 +118,7 @@ Retorna a lista com o `identificador` de todos os pilotos ordenados pelo `Identi
  
   **Exceções:**
  
- - Caso o piloto informado não exista, retornar `br.com.codenation.desafio.exceptions.PilotoNaoEncontradoException`
+ - Caso o piloto informado não exista, retornar `br.com.neogrid.desafio.exceptions.PilotoNaoEncontradoException`
  
 ### @Desafio("buscarPilotoMaisExperiente")
 
@@ -137,7 +137,7 @@ Retorna a lista com o `identificador` de todos os pilotos ordenados pelo `Identi
  
   **Exceções:**
  
- - Caso o piloto informado não exista, retornar `br.com.codenation.desafio.exceptions.PilotoNaoEncontradoException`
+ - Caso o piloto informado não exista, retornar `br.com.neogrid.desafio.exceptions.PilotoNaoEncontradoException`
 
 ### @Desafio("buscarCarros")
 
@@ -147,7 +147,7 @@ Retorna a lista com o `identificador` de todos os pilotos ordenados pelo `Identi
  
   **Exceções:**
  
- - Caso o piloto informado não exista, retornar `br.com.codenation.desafio.exceptions.PilotoNaoEncontradoException`
+ - Caso o piloto informado não exista, retornar `br.com.neogrid.desafio.exceptions.PilotoNaoEncontradoException`
  
 ### @Desafio("buscarCarroMaisCaro")
 
@@ -175,7 +175,7 @@ Retorna a lista com o `identificador` de todos os pilotos ordenados pelo `Identi
  
   **Exceções:**
  
- - Caso o piloto informado não exista, retornar `br.com.codenation.desafio.exceptions.PilotoNaoEncontradoException`
+ - Caso o piloto informado não exista, retornar `br.com.neogrid.desafio.exceptions.PilotoNaoEncontradoException`
  
 ### @Desafio("trocarCor")
 
@@ -185,7 +185,7 @@ Retorna a lista com o `identificador` de todos os pilotos ordenados pelo `Identi
 
   **Exceções:**
  
- - Caso o carro informado não exista, retornar `br.com.codenation.desafio.exceptions.CarroNaoEncontradoException`
+ - Caso o carro informado não exista, retornar `br.com.neogrid.desafio.exceptions.CarroNaoEncontradoException`
  
 ### @Desafio("buscarCor")
 
@@ -195,6 +195,6 @@ Retorna a lista com o `identificador` de todos os pilotos ordenados pelo `Identi
 
   **Exceções:**
  
- - Caso o carro informado não exista, retornar `br.com.codenation.desafio.exceptions.CarroNaoEncontradoException`
+ - Caso o carro informado não exista, retornar `br.com.neogrid.desafio.exceptions.CarroNaoEncontradoException`
  
  
